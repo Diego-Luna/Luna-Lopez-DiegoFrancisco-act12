@@ -1,0 +1,103 @@
+/* -------------------------- En esta sona pongo vallores a cero para que no surgan cosas extrañas */
+/* -------------------------- La coma es para decir que va a afectar a los dos por igual */
+html, body{
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+
+/* -------------------------- Esta sona es para dividir la proporcion de la paguina */
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+}
+.col-1{
+  width: 8.33333%;
+  padding: 10px;
+}
+.col-2{
+  width: 16.66666%;
+  padding: 10px;
+}
+.col-3{
+  width: 24.99999%;
+  padding: 10px;
+}
+.col-4{
+  width: 33.33332%;
+  padding: 10px;
+}
+.col-5{
+  width: 41.66665%;
+  padding: 10px;
+}
+.col-6{
+  width: 49.99998%;
+  padding: 10px;
+}
+.col-7{
+  width: 58.33331%;
+  padding: 10px;
+}
+.col-8{
+  width: 66.66664%;
+  padding: 10px;
+}
+.col-9{
+  width: 74.99997%;
+  padding: 10px;
+}
+.col-10{
+  width: 83.3333%;
+  padding: 10px;
+}
+.col-11{
+  width: 91.66663%;
+  padding: 10px;
+}
+.col-12{
+  width: 100%;
+  padding: 10px;
+}
+
+.image{
+  text-align: center;
+  margin: 12px;
+}
+
+/* -------------------------- Poniendo la introducción */
+h1, p {
+  color: white;
+}
+h1{
+ margin:  177px 10px;
+}
+h2{
+  font-size: 30px; /*Para cambiar el tamaño de letra*/
+  /* color: #4370AB; */
+  color: #9FBDC8;
+}
+section{
+  background-color: #DE786D;
+}
+
+#Bienvenida {
+  background-color: #9FBEC8;
+}
+
+/* -------------------------- La seccion del contenido */
+
+li{
+  color: white;
+  list-style: disc;
+}
+.pasos{
+  list-style: inherit;
+}
